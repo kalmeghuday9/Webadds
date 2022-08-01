@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>City__c</fullName>
+    <externalId>false</externalId>
+    <label>City</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>State__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Nagpur</fullName>
+                <default>false</default>
+                <label>Nagpur</label>
+            </value>
+            <value>
+                <fullName>Chennai</fullName>
+                <default>false</default>
+                <label>Chennai</label>
+            </value>
+            <value>
+                <fullName>Boston</fullName>
+                <default>false</default>
+                <label>Boston</label>
+            </value>
+            <value>
+                <fullName>Chealsea</fullName>
+                <default>false</default>
+                <label>Chealsea</label>
+            </value>
+            <value>
+                <fullName>New 1</fullName>
+                <default>false</default>
+                <label>New 1</label>
+            </value>
+            <value>
+                <fullName>Los1</fullName>
+                <default>false</default>
+                <label>Los1</label>
+            </value>
+            <value>
+                <fullName>Torronto</fullName>
+                <default>false</default>
+                <label>Torronto</label>
+            </value>
+            <value>
+                <fullName>montrel</fullName>
+                <default>false</default>
+                <label>montrel</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Nagpur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tamilnadu</controllingFieldValue>
+            <valueName>Chennai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>London</controllingFieldValue>
+            <valueName>Boston</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manchaster</controllingFieldValue>
+            <valueName>Chealsea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New York</controllingFieldValue>
+            <valueName>New 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Los Angles</controllingFieldValue>
+            <valueName>Los1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can State1</controllingFieldValue>
+            <valueName>Torronto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can State 2</controllingFieldValue>
+            <valueName>montrel</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

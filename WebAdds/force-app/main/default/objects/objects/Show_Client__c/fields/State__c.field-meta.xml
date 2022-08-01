@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State__c</fullName>
+    <externalId>false</externalId>
+    <label>State</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Country__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>america 1</fullName>
+                <default>false</default>
+                <label>america 1</label>
+            </value>
+            <value>
+                <fullName>Andhra</fullName>
+                <default>false</default>
+                <label>Andhra</label>
+            </value>
+            <value>
+                <fullName>Beegi</fullName>
+                <default>false</default>
+                <label>Beegi</label>
+            </value>
+            <value>
+                <fullName>Busan</fullName>
+                <default>false</default>
+                <label>Busan</label>
+            </value>
+            <value>
+                <fullName>Maharastra</fullName>
+                <default>false</default>
+                <label>Maharastra</label>
+            </value>
+            <value>
+                <fullName>New Work</fullName>
+                <default>false</default>
+                <label>New Work</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>America</controllingFieldValue>
+            <valueName>america 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>America</controllingFieldValue>
+            <valueName>New Work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Beegi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Busan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>Andhra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>Maharastra</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
